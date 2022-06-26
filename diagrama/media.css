@@ -1,0 +1,46 @@
+@media(max-width: 1156px){
+    .grafiki{
+        display: block;
+        background-position: center;
+    }
+    .header{
+        min-width: 1156px;
+        
+    }
+    .about{
+        min-width: 900px;
+        
+    }
+    .right__information{
+        padding: opx 200px 0px 0px;
+    }
+    
+
+}
+@media(max-width: 700px){
+    .about{
+        
+        height: auto;
+        /* min-width: 700px; */
+        
+    }
+    .left_and_right{
+        display: inline;
+        
+    }
+    .right__information{
+        padding: 50px 150px;
+        
+    }
+    .data1{
+        font-size: 20px;
+    }
+    .header{
+        width: 100%;
+    }
+    #curve-chart,
+    #curve-chart-1{
+        width: 300px;
+        height: 200px;
+    }
+}
